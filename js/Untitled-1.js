@@ -52,7 +52,63 @@ $(function () {
 
     // 숫자 돌아가는거
     $(window).scroll(function () {
-        if ($(this).scrollTop() >= 1500 && $(this).scrollTop() <= 1501) {
+
+        if (window.matchMedia("(min-width:767px)").matches) { 
+
+            if ($(this).scrollTop() >= 1500 && $(this).scrollTop() <= 1501) {
+                $({ val: 0/*시작숫자*/ }).animate({ val: 50/*종료숫자*/ }, {
+                    duration: 1500,
+                    step: function () {
+                        var num = Math.floor(this.val);
+                        $(".num1").text(num);
+                    },
+                    complete: function () {
+                        var num = Math.floor(this.val);
+                        $(".num1").text(num);
+                    }
+                });
+    
+                $({ val: 0/*시작숫자*/ }).animate({ val: 7/*종료숫자*/ }, {
+                    duration: 1500,
+                    step: function () {
+                        var num = Math.floor(this.val);
+                        $(".num2").text(num);
+                    },
+                    complete: function () {
+                        var num = Math.floor(this.val);
+                        $(".num2").text(num);
+                    }
+                });
+    
+                $({ val: 0/*시작숫자*/ }).animate({ val: 7/*종료숫자*/ }, {
+                    duration: 1500,
+                    step: function () {
+                        var num = Math.floor(this.val);
+                        $(".num3").text(num);
+                    },
+                    complete: function () {
+                        var num = Math.floor(this.val);
+                        $(".num3").text(num);
+                    }
+                });
+    
+                $({ val: 0/*시작숫자*/ }).animate({ val: 8/*종료숫자*/ }, {
+                    duration: 1500,
+                    step: function () {
+                        var num = Math.floor(this.val);
+                        $(".num4").text(num);
+                    },
+                    complete: function () {
+                        var num = Math.floor(this.val);
+                        $(".num4").text(num);
+                    }
+                });
+    
+            }
+       
+       } else { 
+       
+        if ($(this).scrollTop() >= 2300 && $(this).scrollTop() <= 2301) {
             $({ val: 0/*시작숫자*/ }).animate({ val: 50/*종료숫자*/ }, {
                 duration: 1500,
                 step: function () {
@@ -102,6 +158,10 @@ $(function () {
             });
 
         }
+       
+        }
+
+        
     });
 });
 

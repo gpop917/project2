@@ -47,7 +47,7 @@
 
  /* about 설명 */
  #about {width: 97%; height: 720px; margin: 0 auto; display: flex; justify-content: space-between; }
- #about >img {margin-top: 90px; }
+ #about >.aboutimg {width: 540px; height: 630px; margin-top: 90px; background-image: url(../img/3-2.jpg); }
  #about >.right_about {width: calc(100% - 540px);width: calc(100% - 540px); height: 630px; margin-top: 90px; }
  #about .title {width: 100%; height: 130px; border-bottom: 1px solid burlywood;}
  span.textmain {font-size: 18px; color: #b3b3b3; margin-left: 140px;}
