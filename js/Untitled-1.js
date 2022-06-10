@@ -50,6 +50,8 @@ $(function () {
 
 
 
+
+
     // 숫자 돌아가는거
     $(window).scroll(function () {
 
@@ -163,29 +165,36 @@ $(function () {
 
         
     });
-});
 
 
-// 보튼 누르면 넘어가는거
-$(function () {
-
+    // 보튼 누르면 넘어가는거
     var page = 0;
+    var w = $('.reviewslide_minu').outerWidth(true);
+    
     $('.left_review').click(function () {
         page--;
         if (page < 0) {
             page = 0;
             return;
         }
-        $('.reviewrap').stop().animate({ marginLeft: -410 * page }, 800);
+        $('.reviewrap').stop().animate({ marginLeft: -w * page }, 800);
     });
 
     $('.right_review').click(function () {
         page++;
-        if (page > $('.reviewslide_minu').length-2) {
-            page = $('.reviewslide_minu').length-2;
+        if (page > $('.reviewslide_minu').length - 2) {
+            page = $('.reviewslide_minu').length - 2;
             return;
         }
-        $('.reviewrap').stop().animate({ marginLeft: -410 * page }, 800);
+        $('.reviewrap').stop().animate({ marginLeft: -w * page }, 800);
     });
+  
+});
+
+
+$(function(){
+
 
 });
+
+
