@@ -3,13 +3,16 @@
 
 @media (max-width:766px){
  #top {width: 100%; height: 100vh; background: url(../img/main1-1.jpg) center/cover no-repeat;}
- header {width: 1300px; height: 70px; margin: 0 auto; }
+ header {width: 100%; height: 70px; margin: 0 auto; background-color: #000000; position: relative;}
  .logo {width: 150px; height: 100%; float: left; color: white;}
- .logo p {float: left; padding: 10px; font-size: 25px; margin-top: 15px;}
+ .logo p {float: left; padding: 5px; font-size: 23px; margin-top: 15px;}
+
+ header i {font-size: 25px; width: 130px; height: 70px; color: #b3b3b3; float: right; padding: 20px 3px 0 20px;}
+ header i span {font-size: 23px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;} 
  
- nav {float: right;width: 450px; height: 100%; margin-top: 30px;}
- nav li {float: left; padding: 0 20px;}
- nav li a {color: #fff;}
+ nav {display: none; position: absolute; width: 100%; height:300px; top: 70px; background-color: rgba(0, 0, 0, 0.8); z-index: 5;}
+ nav li {float: left; width: 100%; padding: 0 20px;}
+ nav li a {width: 100%; color: #fff; padding: 15px; display: block; text-align: center;}
  nav .active {color: #ffffff80;}
 
  /* 메인 글씨 */
@@ -91,14 +94,14 @@
  #used {width: 100%; height: 860px;  margin: 0 auto; padding-top: 90px;}
  #used >.reviewbox {width: 100%; height: 150px; margin: 0 auto; padding: 15px;}
  /* 후기 슬라이드 */
- #used >.reviewslide {width: 1230px; height: 465px; margin: 0 auto; padding: 90px 0 32px;  overflow: hidden; }
+ #used >.reviewslide {width: 100%; height: 465px; margin: 0 auto; padding: 90px 0 32px;  overflow: hidden; }
  /* 1.사람 */
- .reviewslide .reviewslide_minu {width: 360px; height: 340px; color: #000000CC; padding: 24px 24px 48px; float: left; margin: 0 25px;}
- .reviewslide .reviewrap {width: 2280px; height: 100%; }
+ .reviewslide .reviewslide_minu {width: 90vw; height: 340px; color: #000000CC; padding: 24px 24px 48px; float: left; margin: 0 2vw;}
+ .reviewslide .reviewrap {width: 470vw; height: 100%;}
  .reviewslide_minu >.rimg {width: 100px; height: 100px; border-radius: 50%; background: url(../img/review1.jpg) center/cover; position: relative; margin: -75px 0 48px;}
  .iimgbox i {font-size: 25px; color: burlywood; line-height: 40px; display: block; text-align: center; }
  .reviewslide_minu >.rimg >.iimgbox {width: 40px; height: 40px; background-color: #fff; right: 0; bottom: -10px; position: absolute; border-radius: 50%;}
- p.reviewslide_p {width: 315px; height: 85px; margin: 0 0 48px; padding: 0 0 0 24px; padding-left: 2em; border-left: 1px solid #e6e6e6; position: relative;}
+ p.reviewslide_p {width: auto; height: 85px; margin: 0 0 48px; padding: 0 0 0 24px; padding-left: 2em; border-left: 1px solid #e6e6e6; position: relative;}
  p.reviewslide_p::after {position: absolute; top: 50%; left: -1px; transform: translateY(-50%); content: '';
  width: 3px; height: 40px; background-color: burlywood;}
  h5.name_p {width: 315px; height: 30px; font-size: 18px; color: #000000;}
@@ -181,43 +184,43 @@
  .blog_textbox_right >h3 a {color: #000000; font-size: 20px;  }
  .blog_textbox_right >h3 a:hover {color: burlywood;}
 
- #end_perfect {width: 1270px; height: 630px; margin: 0 auto; display: flex; justify-content: space-between; }
+ #end_perfect {width: 100%; height: 930px; margin: 0 auto; display: flex; flex-direction: column; justify-content: space-around; }
  #end_perfect >img {width: 530px; height: 540px; margin-top: 90px; }
- #end_perfect >.right_about2 {width: 100%; height: 630px; margin-top: 90px; }
+ #end_perfect >.right_about2 {width: 100%; height: 530px; order: 2;}
  #end_perfect .title {width: 100%; height: 130px; margin: 0 auto; padding: 15px; border-bottom: 1px solid burlywood;}
- #end_perfect >.aboutimg {width: 100%; height: 300px;}
+ #end_perfect >.aboutimg {width: 100%; height: 300px; order: 1; background: url(../img/wood-end.jpg) center/cover no-repeat;}
 
 
 
 
- footer {width: 100%; height: 505px; background-color: #141413; display: flex; justify-content: center; align-items: center; flex-wrap: wrap;}
- footer >#footerbox {width: 1270px; height: 335px;   display: flex; justify-content: left; flex-wrap: wrap; }
- #footerbox >.end1 {width: 325px; height: 248px; padding: 0 15px; color: #666666;}
- h2.logoend {width: 295px; height: 27px; color: #FFFFFF; font-size: 18px; margin: 0 0 43px;}
+ footer {width: 100%; height: 1100px; background-color: #141413; display: flex; flex-direction: column; }
+ footer >#footerbox {width: 100%; height: 950px; }
+ #footerbox >.end1 {width: 325px; height: 230px; padding: 0 15px; color: #666666; margin-top: 50px;}
+ h2.logoend {width: 295px; height: 27px; color: #FFFFFF; font-size: 18px; margin: 0 0 25px 5px;}
  p.logoend2 {width: 295px; height: 75px; color: rgba(255, 255, 255, 0.7); font-size: 15px; margin: 0 0 23px;}
  ul.footer_i {width: 185px; height: 58px; margin: 16px 0; font-size: 14px; color: #666666;}
  li.footer_i1 {width: 50px; height: 50px; margin-right: 8px; list-style: none; display: inline-block;}
  .footer_i1 a {width: 50px; height: 50px; background: rgba(255, 255, 255, 0.05); display: inline-block; border-radius: 50%; display: flex; justify-content: center; align-items: center;}
  .footer_i1 a i::before {width: 24px; height: 26px; color: #fff; font-size: 26px; top: 50%; left: 50%; transform: translate(-50%, -50%);}
 
- #footerbox >.end2 {width: 325px; height: 248px; padding: 0 15px;}
- h2.logoend3 {width: 271px; height: 27px; color: #FFFFFF; font-size: 18px; margin: 0 0 40px;}
+ #footerbox >.end2 {width: 325px; height: 210px; padding: 0 15px;}
+ h2.logoend3 {width: 271px; height: 27px; color: #FFFFFF; font-size: 18px; margin: 0 0 20px 5px;}
  ul.footermenu1 {width: 271px; height: 125px; margin-top: 0; margin-bottom: 1rem; display: block;}
  .footermenu1 li {width: 271px; height: 25px; list-style: none; }
  .footermenu1 a {width: 37px; height: 17px; color: #FFFFFFB3; font-size: 14px; } 
  .footermenu1 a:hover {color: #FFFFFF;}
 
- #footerbox >.end3 {width: 325px; height: 248px; padding: 0 15px;}
- h2.logoend3 {width: 295px; height: 27px; color: #FFFFFF; font-size: 18px; margin: 0 0 40px;}
+ #footerbox >.end3 {width: 325px; height: 220px; padding: 0 15px;}
+ h2.logoend3 {width: 295px; height: 27px; color: #FFFFFF; font-size: 18px; margin: 0 0 25px 5px;}
 
- #footerbox >.end4 {width: 295px; height: 211px; margin: 0 0 24px;}
+ #footerbox >.end4 {width: 295px; height: 250px; margin: 0 0 24px;}
  ul.logoend4 {width: 295px; height: 144px; margin: 0 0 16px;}
  .logoend4 li {display: flex;}
  span.ligoend_i1 {width: 40px; height: 50px; padding-top: 2px; color: white; display: flex; align-items: center; }
  span.text {width: 255px; height: 60px; font-size: 14px; color: #FFFFFFB3;}
  span.text2 {width: 255px; height: 50px; line-height: 50px; font-size: 14px; color: #FFFFFFB3; }
 
- .footerendd {width: 1270px; height: 40px; padding: 0 15px;}
- p.end {width: 1270px; height: 25px; font-size: 14px; text-align: center; color: #FFFFFFB3; }
+ .footerendd {width: 100%; height: 40px; padding: 0 15px;}
+ p.end {width: 100%; height: 25px; font-size: 14px; text-align: center; color: #FFFFFFB3; }
  .text2 a {color: #FFFFFFB3;}
 }

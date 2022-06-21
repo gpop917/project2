@@ -8,6 +8,8 @@
 @media (min-width:1300px){
  #top {width: 100%; height: 100vh; background: url(../img/main1-1.jpg) center/cover no-repeat;}
  header {width: 1300px; height: 70px; margin: 0 auto; }
+ header i {display: none; }
+
  .logo {width: 150px; height: 100%; float: left; color: white;}
  .logo p {float: left; padding: 10px; font-size: 25px; margin-top: 15px;}
  
