@@ -7,112 +7,18 @@
     <title>VOWOOD</title>
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css">
-    <link rel="stylesheet" href="css/common_max-width766.css">
-    <link rel="stylesheet" href="css/common_min-width767.css">    
-    <link rel="stylesheet" href="css/common_min-width1300.css">
+    <link rel="stylesheet" href="css/index_max-width766.css">
+    <link rel="stylesheet" href="css/index_min-width767.css">  
+    <link rel="stylesheet" href="css/index_min-width1300.css">
+
+    <link rel="stylesheet" href="css/sub_max-width766.css">
+    <link rel="stylesheet" href="css/sub_min-width767.css">
+    <link rel="stylesheet" href="css/sub_min-width1300.css">
 
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
     <script src="js/Untitled-1.js"></script>
 
-    <style>
-        #top {height: 500px; background: url(../img/main2-1.jpg) center/cover no-repeat; }
-        #top >.text_subbox {width: 200px; height: 150px; margin: 100px auto 0; text-align: center; background-color: burlywood;}
-        h1.blog_sub {width: 100%; height: 60px; font-size: 40px; color: #ffffff; margin: 48px 0 16px;}
-        .blog_home a {font-size: 13px; color: #FFFFFF;}
-
-
-        #blogbig_sub {width: 1300px; height: 5230px; margin: 0 auto; background-color: teal; display: flex; flex-direction: row;}
-        .sub_left {width: 865px; height: 5230px; background-color: yellowgreen;}
-        /* # */
-        .sub_left >.sub_no1 {width: 865px; height: 1030px; background-color: aquamarine; margin-top: 50px;}
-        h2.sub_left1 {width: 98%; height: 55px; font-size: 32px; margin: 0 0 1% 1%; color: #000000CC;}
-        p.sub_left1 {width: 98%; height: 145px; margin: 20px 1% 1% 1%; color: #666666; font-size: 16px;}
-        .sub_left >img {width: 100%; }
-        /* #2 */
-        .sub_left >.sub_no2 {width: 865px; height: 1230px; background-color: tomato;}
-        h2.sub_left2 {width: 98%; height: 95px; font-size: 32px; margin: 0 0 1% 1%; color: #000000CC;}
-        p.sub_left2 {width: 98%; height: 0 auto; margin: 3% 1% 5% 1%; color: #666666; font-size: 16px;}
-
-        .sub_botton1 {width: 100%; height: 40px; background-color: royalblue;}
-        .sub_botton1 a {height: 35px; text-transform: uppercase; display: inline-block; padding: 4px 10px; margin: 0 10px 7px 10px; border-radius: 4px; color: #000000; border: 1px solid #ccc; font-size: 14px;}
-        .sub_botton1 a:hover {border: 1px solid #000;}
-
-        /* 디자이너 */
-        .sub_Designer {width: 835px; height: 240px; background-color: #FAFAFA; padding: 24px; margin: 0 auto; display: flex; }
-        .sub_Designer >.designerbox {width: 250px; height: 192px;}
-        .sub_Designer img {width: 210px; height: 190px;}
-        .designerbox2 {width: 100%; height: 200px; margin-left: 20px;}
-        h3.designer3 {width: 100%; height: 36px; color: #000000CC; margin: 0 0 8px; font-size: 24px;}
-        p.designer4 {width: 100%; height: 86px; color: #666666; font-size: 16px; margin: 0 0 16px;}
-
-        /* 리뷰 */
-        .Commentsbox {width: 835px; height: 1600px; background-color: skyblue; margin: 90px auto 0;}
-        h3.commenth3 {width: 100%; height: 42px; color: #000000CC; font-size: 28px; margin: 0 0 48px;}
-        li.commentli {width: 835px; height: 210px; margin: 0 0 30px; background-color: burlywood; display: flex;}        
-        .comment_imgbox {width: 170px; height: 100px;}
-        .comment_imgbox >img{width: 100px; height: 100px; border-radius: 50%;}
-        .comment_rightbox {width: 100%; height: 210px;}
-        h3.comment_righth3 {width: 100%; height: 30px; font-size: 25px; color: #000000CC; margin: 0 0 8px;}
-        span.comment_Date {color: #CCCCCC; font-size: 14px; width: 100%; }
-        p.comment_p {width: 100%; height: 90px; font-size: 17px; margin: 5px 0 16px; color: #666666;}
-        a.reply {padding: 5px 10px; background-color: #e6e6e6; color: #000000; text-transform: uppercase; font-size: 11px; letter-spacing: .1em; font-weight: 400; border-radius: 4px;}
-        a.reply:hover {background-color: #000000; color: white;}
-        /* 2번째 인라인 */
-        ul.commentul2 {margin-left: 30px; }
-        li.commentli2 {width: 805px; height: 210px; margin: 0 0 30px; background-color: burlywood; display: flex;}
-        /* 3번째 인라인 */
-        ul.commentul3 {margin-left: 60px; }
-        li.commentli3 {width: 775px; height: 210px; margin: 0 0 30px; background-color: burlywood; display: flex;}
-        /* 4번째 인라인 */
-        ul.commentul4 {margin-left: 90px; }
-        li.commentli4 {width: 745px; height: 210px; margin: 0 0 30px; background-color: burlywood; display: flex;}
-
-        /* 치는거 */
-        .leave {width: 835px; height: 950px; margin: 0 auto; background-color: seagreen;}
-        h3.leave_a_comment {width: 100%; height: 42px; font-size: 28px; margin: 0 0 48px; color: #000000CC;}
-        .leave_textbox {width: 835px; height: 820px; background-color: #FAFAFA; padding: 48px;}
-        .leave_textbox >.comment {width: 740px; height: 85px; color: #666666; font-size: 16px; margin: 0 0 16px;}
-        .comment >.label {color: #666666; font-size: 16px;  display: inline-block;}
-        .comment-control  { width: 740px; height: 52px !important;
-            padding: 6px 12px; background-color: #ffffff !important; color: #000000 !important; font-size: 18px; box-shadow: none !important; margin-top: 10px;}
-        .comment-control2 {width: 740px; height: 285px !important;
-            padding: 6px 12px; background-color: #ffffff !important; color: #000000 !important; font-size: 18px; box-shadow: none !important; margin: 10px 0 16px;}
-
-        .comment_buttonbox {width: 740px; height: 60px; margin: 0 0 16px;}
-        input.comment_btn {width: 155px; height: 60px; background-color: #FFCDCD; padding: 16px 24px; border-radius: 50px; border: 1px solid #ffcdcd; color: #fff; font-size: 16px; }
-        input.comment_btn:hover {background-color: #fff; color: #FFCDCD;}
-
-
-        .sub_right {width: 433px; height: 5230px; background-color: rgb(214, 236, 224); margin-top: 50px;}
-        .sub_right >.siderbar-box {width: 405px; height: 125px; margin: 0 0 30px; padding: 25px;}
-        form.search-form {width: 350px; height: 72px; font-size: 15px; background-color: #FAFAFA; padding: 10px;display: flex; justify-content: space-between; align-items: center;}
-        input.form-control {width: 300px; height: 55px; border: none; background-color: #FFFFFF; padding: 6px 50px 6px 12px;}
-
-        .destination_box {width: 405px; height: 375px; margin: 0 0 30px; padding: 25px;}
-        h3.destination {width: 353px; height: 27px; color: #000000CC; font-size: 18px; margin: 0 0 15px;}
-        ul.categories {width: 345px; height: 267px; color: #666666; font-size: 15px; margin: 0 0 16px; }
-        ul.categories >li { margin-bottom: 10px; padding-bottom:  10px; position: relative; border-bottom: 1px solid #dee2e6; list-style: none; }
-        ul.categories >li >a {width: 345px; height: 27px; color: #FFCDCD; font-size: 15px; display: flex; justify-content: space-between; align-items: center;}
-        span {width: 17px; height: 27px; color: #CCCCCC; font-size: 15px;}
-
-        .popular_box {width: 405px; height: 535px; margin-bottom: 30px; padding: 25px;}
-        h3.popular {width: 355px; height: 27px; color: #000000CC; font-size: 18px; margin-bottom: 15px;}
-        .popular-blockbox {width: 355px; height: 123px; color: #666666; font-size: 15px; margin: 0 0 24px; display: flex;}
-        .popular-blockbox >img {width: 80px; height: 80px; margin-right: 24px;}
-        .blockbox_text {width: 250px; height: 123px; }
-        h3.heading {width: 250px; height: 90px; margin-bottom: 15px;}
-        .heading >a {width: 240px; height: 90px; color: #000000; font-size: 18px;}
-        .heading >a:hover {color: #ffcdcd; outline: none !important; text-decoration: underline;}
-
-        .meta {width: 250px; height: 27px; display: flex;  }
-        .meta1 {width: 40%; height: 21px; margin-right: 5px;}
-        .meta1:last-of-type{width: 20%;}
-        .meta1 >a { height: 14px; color: #808080; font-size: 12px;  display: flex; justify-content: space-around;  }
-        .meta1 >a:hover {text-decoration: underline;}
-
-
-    
-    </style>
+    <style></style>
 </head>
 <body>
     <div id="top">
@@ -124,11 +30,11 @@
 
             <nav>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Watch</a></li>
-                    <li><a href="#">Event</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="index.html">Watch</a></li>
+                    <li><a href="index.html">Event</a></li>
+                    <li><a href="index.html">Contact</a></li>
                 </ul>
             </nav>
             
@@ -136,7 +42,7 @@
 
         <div class="text_subbox">
             <h1 class="blog_sub">BLOG</h1>
-            <p class="blog_home"><a href="#">HOME BLOG</a></p>
+            <p class="blog_home"><a href="index.html">HOME BLOG</a></p>
         </div>
         
     </div>
@@ -193,10 +99,10 @@
                     chocolate brown color, is the most popular holiday season.
                 </p>
                 <div class="sub_botton1">
-                    <a href="#" class="sub_buttons">Union</a>
-                    <a href="#" class="sub_buttons">Ciel</a>
-                    <a href="#" class="sub_buttons">Destiny</a>
-                    <a href="#" class="sub_buttons">Eternity</a>
+                    <a href="index.html" class="sub_buttons">Union</a>
+                    <a href="index.html" class="sub_buttons">Ciel</a>
+                    <a href="index.html" class="sub_buttons">Destiny</a>
+                    <a href="index.html" class="sub_buttons">Eternity</a>
 
                 </div>
             </div>
@@ -231,7 +137,7 @@
                                  I liked the wood grain on the watch, and the service was good, so I could use it comfortably!
                             </p>
                             <p>
-                                <a href="#" class="reply">Reply</a>
+                                <a href="index.html" class="reply">Reply</a>
                             </p>
                         </div>
                     </li>
@@ -248,7 +154,7 @@
                                  I brag about it to my acquaintances.
                             </p>
                             <p>
-                                <a href="#" class="reply">Reply</a>
+                                <a href="index.html" class="reply">Reply</a>
                             </p>
                         </div>
                     </li>
@@ -266,7 +172,7 @@
                                       I'll use it well
                                 </p>
                                 <p>
-                                    <a href="#" class="reply">Reply</a>
+                                    <a href="index.html" class="reply">Reply</a>
                                 </p>
                             </div>
                         </li>
@@ -284,7 +190,7 @@
                                     Also, it was nice that the designer made it herself and told me what I wanted to say it comfortably!!
                                 </p>
                                 <p>
-                                    <a href="#" class="reply">Reply</a>
+                                    <a href="index.html" class="reply">Reply</a>
                                 </p>
                             </div>
                         </li>
@@ -302,7 +208,7 @@
                                     The watch looks luxurious, so many people around me ask where it's from!
                                 </p>
                                 <p>
-                                    <a href="#" class="reply">Reply</a>
+                                    <a href="index.html" class="reply">Reply</a>
                                 </p>
                             </div>
                         </li>
@@ -319,7 +225,7 @@
                                 I think it was nice and fresh because it seemed eco-friendly.
                             </p>
                             <p>
-                                <a href="#" class="reply">Reply</a>
+                                <a href="index.html" class="reply">Reply</a>
                             </p>
                         </div>
                     </li>
@@ -365,12 +271,12 @@
             <div class="destination_box">
                 <h3 class="destination">Destination</h3>
                 <ul class="categories">
-                    <li><a href="#">"Africa"<span>(6)</span></a></li>
-                    <li><a href="#">"Asia"<span>(8)</span></a></li>
-                    <li><a href="#">"Australia"<span>(2)</span></a></li>
-                    <li><a href="#">"Europe"<span>(2)</span></a></li>
-                    <li><a href="#">"North America"<span>(7)</span></a></li>
-                    <li><a href="#">"South America"<span>(5)</span></a></li>
+                    <li><a href="index.html">"Africa"<span>(6)</span></a></li>
+                    <li><a href="index.html">"Asia"<span>(8)</span></a></li>
+                    <li><a href="index.html">"Australia"<span>(2)</span></a></li>
+                    <li><a href="index.html">"Europe"<span>(2)</span></a></li>
+                    <li><a href="index.html">"North America"<span>(7)</span></a></li>
+                    <li><a href="index.html">"South America"<span>(5)</span></a></li>
                 </ul>
             </div>
 
@@ -379,14 +285,81 @@
                 <div class="popular-blockbox">
                     <img src="img/blog1.jpg" alt="blockbox">
                     <div class="blockbox_text">
-                        <h3 class="heading"><a href="#">Bowd, run the Promised Forest campaign... Donate 3,500 Trees for Future Generations</a></h3>
+                        <h3 class="heading"><a href="index.html">Bowd, run the Promised Forest campaign... Donate 3,500 Trees for Future Generations</a></h3>
                         <div class="meta">
-                            <div class="meta1"><a href="#"><i class="fa-solid fa-calendar-days"></i>Oct 04,2021</a></div>
-                            <div class="meta1"><a href="#"><i class="fa-solid fa-user"></i>Dave Lewis</a></div>
-                            <div class="meta1"><a href="#"><i class="fa-solid fa-comment-dots"></i>19</a></div>
+                            <div class="meta1"><a href="index.html"><i class="fa-solid fa-calendar-days"></i>Oct 04,2021</a></div>
+                            <div class="meta1"><a href="index.html"><i class="fa-solid fa-user"></i>Dave Lewis</a></div>
+                            <div class="meta1"><a href="index.html"><i class="fa-solid fa-comment-dots"></i>19</a></div>
                         </div>
                     </div>
                 </div>
+
+                <div class="popular-blockbox">
+                    <img src="img/blog2.jpg" alt="blockbox">
+                    <div class="blockbox_text">
+                        <h3 class="heading"><a href="index.html">a wooden wristwatch with premium features</a></h3>
+                        <div class="meta">
+                            <div class="meta1"><a href="index.html"><i class="fa-solid fa-calendar-days"></i>Jan 30,2021</a></div>
+                            <div class="meta1"><a href="index.html"><i class="fa-solid fa-user"></i>Dave Lewis</a></div>
+                            <div class="meta1"><a href="index.html"><i class="fa-solid fa-comment-dots"></i>7</a></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="popular-blockbox">
+                    <img src="img/blog3.jpg" alt="blockbox">
+                    <div class="blockbox_text">
+                        <h3 class="heading"><a href="index.html">Tree watch brand VOWOOD opens the 1st "Promise Forest" tree planting campaign</a></h3>
+                        <div class="meta">
+                            <div class="meta1"><a href="index.html"><i class="fa-solid fa-calendar-days"></i>Mar 24,2022</a></div>
+                            <div class="meta1"><a href="index.html"><i class="fa-solid fa-user"></i>Dave Lewis</a></div>
+                            <div class="meta1"><a href="index.html"><i class="fa-solid fa-comment-dots"></i>12</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tag_box">
+                <h3 class="tag_box">Tag Cloud</h3>
+                <ul class="sub_botton2">
+                    <a href="index.html" class="sub_buttons">DISH</a>
+                    <a href="index.html" class="sub_buttons">MENU</a>
+                    <a href="index.html" class="sub_buttons">FOOD</a>
+                    <a href="index.html" class="sub_buttons">SWEET</a>
+                    <a href="index.html" class="sub_buttons">TASTY</a>
+                    <a href="index.html" class="sub_buttons">DELICIOUS</a>
+                    <a href="index.html" class="sub_buttons">DESSERTS</a>
+                    <a href="index.html" class="sub_buttons">DRINKS</a>
+                </ul>
+            </div>
+
+            <div class="subcribe_box">
+                <h3 class="subcribe_h3">Subcribe to our Newsletter</h3>
+                <p class="subcribe_p">Far far away, behind the word mountains, far from the conuntries Vokalia</p>
+                <form action="index.html" class="form-group">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Email Address">
+                        <input type="submit" value="Subscribe" class="subscribe_btn">
+                    </div>
+                </form>
+            </div>
+
+            <div class="destination_box">
+                <h3 class="destination">Event</h3>
+                <ul class="categories">
+                    <li><a href="index.html">"September 2018"<span>(8)</span></a></li>
+                    <li><a href="index.html">"August 2018"<span>(6)</span></a></li>
+                    <li><a href="index.html">"July 2018"<span>(2)</span></a></li>
+                    <li><a href="index.html">"June 2018"<span>(7)</span></a></li>
+                    <li><a href="index.html">"May 2018"<span>(5)</span></a></li>
+                    <li><a href="index.html">"April 2018"<span>(3)</span></a></li>
+                </ul>
+            </div>
+            
+            <div class="paragraph_box">
+                <h3 class="paragraph_h3">imprint</h3>
+                <p class="paragraph_p">Bowd's watch makes special days such as anniversaries and birthdays shine even more.
+                    You can engrave the words you want on a wooden watch and a luxury wooden box, making it the only gift in the world.</p>
             </div>
 
         </div>
@@ -403,31 +376,31 @@
                 </p>
 
                 <ul class="footer_i">
-                    <li class="footer_i1"><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                    <li class="footer_i1"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                    <li class="footer_i1"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li class="footer_i1"><a href="index.html"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li class="footer_i1"><a href="index.html"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li class="footer_i1"><a href="index.html"><i class="fa-brands fa-instagram"></i></a></li>
                 </ul>
             </div>
 
             <div class="end2">
                 <h2 class="logoend3">Links</h2>
                 <ul class="footermenu1">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Wood</a></li>
-                    <li><a href="#">review</a></li>
-                    <li><a href="#">Campaign</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="index.html">Wood</a></li>
+                    <li><a href="index.html">review</a></li>
+                    <li><a href="index.html">Campaign</a></li>
                 </ul>
             </div>
 
             <div class="end3">
                 <h2 class="logoend3">Services</h2>
                 <ul class="footermenu1">
-                    <li><a href="#">Join membership</a></li>
-                    <li><a href="#">Login</a></li>
-                    <li><a href="#">Q&A</a></li>
-                    <li><a href="#">A frequently asked question</a></li>
-                    <li><a href="#">Imprinting service</a></li>
+                    <li><a href="index.html">Join membership</a></li>
+                    <li><a href="index.html">Login</a></li>
+                    <li><a href="index.html">Q&A</a></li>
+                    <li><a href="index.html">A frequently asked question</a></li>
+                    <li><a href="index.html">Imprinting service</a></li>
                 </ul>
             </div>
 
@@ -440,11 +413,11 @@
                     </li>
                     <li>
                         <span class="ligoend_i1"><i class="fa-solid fa-phone"></i></span>
-                        <span class="text2"><a href="#"> 02-6931-0111</a></span>
+                        <span class="text2"><a href="index.html"> 02-6931-0111</a></span>
                     </li>
                     <li>
                         <span class="ligoend_i1"><i class="fa-solid fa-envelope"></i></span>
-                        <span class="text2"><a href="#">bunnyhop.k@ifn-company.com</a></span>
+                        <span class="text2"><a href="index.html">bunnyhop.k@ifn-company.com</a></span>
                     </li>
                 </ul>
             </div>

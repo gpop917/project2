@@ -18,8 +18,9 @@
  nav li a {color: #fff;}
  nav .active {color: #ffffff80;}
 
+ 
  /* 메인 글씨 */
- .slider {width: 1270px;  height: 780px; margin: 0 auto; display: flex; justify-content: flex-end; align-items: center;}
+ .slider {width: 97%;  height: 780px; margin: 0 auto; display: flex; justify-content: flex-end;  align-items: center;}
  .main_text {width: 50%; height: 250px; padding-left: 2em; border-left: 1px solid #ccc; position: relative; }
  .main_text::after {position: absolute; top: 50%; left: -1px; transform: translateY(-50%); content: '';
  width: 3px; height: 80px; background-color: burlywood;}
