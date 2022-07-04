@@ -5,7 +5,7 @@
  ul,ol,li {list-style: none;}
  a {text-decoration: none; }
 
-@media (min-width:1300px){
+ @media (min-width:1300px){
     #top {height: 500px; background: url(../img/main2-1.jpg) center/cover no-repeat; }
     #top >.text_subbox {width: 200px; height: 150px; margin: 100px auto 0; text-align: center; }
     h1.blog_sub {width: 100%; height: 60px; font-size: 40px; color: #ffffff; margin: 48px 0 16px;}
