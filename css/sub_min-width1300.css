@@ -3,7 +3,7 @@
  /* reset.css */
  * {margin: 0; padding: 0; box-sizing: border-box;}
  ul,ol,li {list-style: none;}
- a {text-decoration: none; }
+ a {text-decoration: none; color: rgb(102, 102, 102);}
 
  @media (min-width:1300px){
     #top {height: 500px; background: url(../img/main2-1.jpg) center/cover no-repeat; }
@@ -15,7 +15,7 @@
     #blogbig_sub {width: 1300px; height: 5230px; margin: 0 auto; display: flex; flex-direction: row;}
     .sub_left {width: 865px; height: 5230px; }
     /* # */
-    .sub_left >.sub_no1 {width: 865px; height: 1030px; margin-top: 50px;}
+    .sub_left >.sub_no1 {width: 865px; padding-left: 30px; margin-top: 50px;}
     h2.sub_left1 {width: 98%; height: 55px; font-size: 32px; margin: 0 0 1% 1%; color: #000000CC;}
     p.sub_left1 {width: 98%; height: 145px; margin: 20px 1% 1% 1%; color: #666666; font-size: 16px;}
     .sub_no1 >img {width: 98%; }
@@ -74,8 +74,8 @@
         padding: 6px 12px; background-color: #ffffff !important; color: #000000 !important; font-size: 18px; box-shadow: none !important; margin: 10px 0 16px;}
 
     .comment_buttonbox {width: 740px; height: 60px; margin: 0 0 16px;}
-    input.comment_btn {width: 155px; height: 60px; background-color: #FFCDCD; padding: 16px 24px; border-radius: 50px; border: 1px solid #ffcdcd; color: #fff; font-size: 16px; }
-    input.comment_btn:hover {background-color: #fff; color: #FFCDCD;}
+    input.comment_btn {width: 155px; height: 60px; background-color: burlywood; padding: 16px 24px; border-radius: 50px; border: 1px solid burlywood; color: #fff; font-size: 16px; }
+    input.comment_btn:hover {background-color: #fff; color: burlywood;}
 
 
     .sub_right {width: 433px; height: 5180px;  margin-top: 50px;}
@@ -87,7 +87,7 @@
     h3.destination {width: 353px; height: 27px; color: #000000CC; font-size: 18px; margin: 0 0 15px;}
     ul.categories {width: 345px; height: 267px; color: #666666; font-size: 15px; margin: 0 0 16px; }
     ul.categories >li { margin-bottom: 10px; padding-bottom:  10px; position: relative; border-bottom: 1px solid #dee2e6; list-style: none; }
-    ul.categories >li >a {width: 345px; height: 27px; color: #FFCDCD; font-size: 15px; display: flex; justify-content: space-between; align-items: center;}
+    ul.categories >li >a {width: 345px; height: 27px; color: burlywood; font-size: 15px; display: flex; justify-content: space-between; align-items: center;}
     span {width: 17px; height: 27px; color: #CCCCCC; font-size: 15px;}
 
     .popular_box {width: 405px; height: 500px; margin-bottom: 30px; padding: 25px;}
@@ -97,7 +97,7 @@
     .blockbox_text {width: 250px; height: 123px; }
     h3.heading {width: 250px; height: 90px; margin-bottom: 15px;}
     .heading >a {width: 240px; height: 90px; color: #000000; font-size: 18px;}
-    .heading >a:hover {color: #ffcdcd; outline: none !important; text-decoration: underline;}
+    .heading >a:hover {color: burlywood; outline: none !important; text-decoration: underline;}
 
     .meta {width: 250px; height: 27px; display: flex;  }
     .meta1 {width: 40%; height: 21px; margin-right: 5px;}
@@ -112,7 +112,7 @@
     .tag_box >.sub_botton2 li {height: 30px; text-transform: uppercase; display: inline-block; padding: 4px 10px; margin: 0 4px 7px 0px; border-radius: 4px; color: #000000; border: 1px solid #ccc; font-size: 11px;}
     .tag_box >.sub_botton2 li:hover {border: 1px solid #000;}
 
-    .subcribe_box {width: 405px; height: 340px; background-color: #FFCDCD; margin-bottom: 30px; padding: 25px; margin: 0 auto;}
+    .subcribe_box {width: 405px; height: 340px; background-color: burlywood; margin-bottom: 30px; padding: 25px; margin: 0 auto;}
     h3.subcribe_h3 {width: 353px; height: 90px; color: #FFFFFF; font-size: 30px; margin-bottom: 15px;}
     p.subcribe_p {width: 353px; height: 55px; color: #FFFFFFB3; font-size: 15px; margin-bottom: 16px;}
     .form-group {width: 353px; height: 112px;}

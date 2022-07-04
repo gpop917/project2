@@ -13,7 +13,7 @@
  nav { float: right;width: 450px; height: 100%; margin-top: 30px;}
  nav li {float: left; padding: 0 20px;}
  nav li a {color: #fff;}
- nav .active {color: #ffffff80;}
+ nav .active {color: burlywood;}
 
  /* 메인 글씨 */
  .slider {width: 97%;  height: 780px; margin: 0 auto; display: flex; justify-content: flex-end;  align-items: center;}

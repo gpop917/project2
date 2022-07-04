@@ -36,7 +36,7 @@ $(function () {
 
 
     // top 버튼
-    $('nav li:nth-of-type(1) a').addClass('active');
+  
 
     $('nav li a').click(function () {
         $("nav a").removeClass('active');

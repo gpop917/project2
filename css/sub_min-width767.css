@@ -8,16 +8,16 @@
     .blog_home a {font-size: 13px; color: #FFFFFF;}
 
 
-    #blogbig_sub {width: 100%; height: 5230px; margin: 0 auto; display: flex; flex-direction: row;}
+    #blogbig_sub {width: 100%; height: 5250px; margin: 0 auto; display: flex; flex-direction: row;}
     .sub_left {width: 66.5%; height: 5230px; }
     /* # */
-    .sub_left >.sub_no1 {width: 100%; height: 900px; margin-top: 50px;}
-    h2.sub_left1 {width: 98%; height: 67px; font-size: 32px; margin: 0 0 1% 1%; color: #000000CC;}
-    p.sub_left1 {width: 98%; height: 145px; margin: 20px 1% 1% 1%; color: #666666; font-size: 16px;}
+    .sub_left >.sub_no1 {width: 100%; padding-left: 30px; margin-top: 50px;}
+    h2.sub_left1 {width: 98%; height: 77px; font-size: 32px; margin: 0 0 1% 1%; color: #000000CC;}
+    p.sub_left1 {width: 98%; height: 175px; margin: 20px 1% 1% 1%; color: #666666; font-size: 16px;}
     .sub_no1 >img {width: 98%; }
     /* #2 */
-    .sub_left >.sub_no2 {width: 100%; height: 1160px; }
-    h2.sub_left2 {width: 98%; height: 105px; font-size: 32px; margin: 0 0 1% 1%; color: #000000CC;}
+    .sub_left >.sub_no2 {width: 100%; padding-left: 30px; }
+    h2.sub_left2 {width: 98%; height: 115px; font-size: 32px; margin: 0 0 1% 1%; color: #000000CC;}
     p.sub_left2 {width: 98%; margin: 3% 1% 5% 1%; color: #666666; font-size: 16px;}
     .sub_no2 >img {width: 98%;}
 
@@ -34,7 +34,7 @@
     p.designer4 {width: 100%; height: 86px; color: #666666; font-size: 16px; margin: 0 0 16px;}
 
     /* 리뷰 */
-    .Commentsbox {width: 100%; height: 1750px; margin: 90px auto 0;}
+    .Commentsbox {width: 100%; padding-left: 30px; height: 1750px; margin: 90px auto 0;}
     h3.commenth3 {width: 100%; height: 42px; color: #000000CC; font-size: 28px; margin: 0 0 48px;}
     li.commentli {width: 100%; height: 240px; margin: 0 0 30px; display: flex;}        
     .comment_imgbox {width: 170px; height: 100px;}
@@ -60,7 +60,7 @@
 
     /* 치는거 */
     .leave {width: 100%; height: 900px; margin: 0 auto; }
-    h3.leave_a_comment {width: 100%; height: 42px; font-size: 28px; margin: 0 0 48px; color: #000000CC;}
+    h3.leave_a_comment {width: 100%; padding-left: 30px; height: 42px; font-size: 28px; margin: 0 0 48px; color: #000000CC;}
     .leave_textbox {width: 100%; height: 810px; background-color: #FAFAFA; padding: 48px;}
     .leave_textbox >.comment {width: 100%; height: 85px; color: #666666; font-size: 16px; margin: 0 0 16px;}
     .comment >.label {color: #666666; font-size: 16px;  display: inline-block;}
@@ -70,8 +70,8 @@
         padding: 6px 12px; background-color: #ffffff !important; color: #000000 !important; font-size: 18px; box-shadow: none !important; margin: 10px 0 16px;}
 
     .comment_buttonbox {width: 100%; height: 60px; margin: 0 0 16px;}
-    input.comment_btn {width: 155px; height: 60px; background-color: #FFCDCD; padding: 16px 24px; border-radius: 50px; border: 1px solid #ffcdcd; color: #fff; font-size: 16px; }
-    input.comment_btn:hover {background-color: #fff; color: #FFCDCD;}
+    input.comment_btn {width: 155px; height: 60px; background-color: burlywood; padding: 16px 24px; border-radius: 50px; border: 1px solid burlywood; color: #fff; font-size: 16px; }
+    input.comment_btn:hover {background-color: #fff; color: burlywood;}
 
 
     .sub_right {width: 33.3%; height: 5180px; margin-top: 50px;}
@@ -83,7 +83,7 @@
     h3.destination {width: 100%; height: 27px; color: #000000CC; font-size: 18px; margin: 0 0 15px;}
     ul.categories {width: 100%; height: 267px; color: #666666; font-size: 15px; margin: 0 0 16px; }
     ul.categories >li { margin-bottom: 10px; padding-bottom:  10px; position: relative; border-bottom: 1px solid #dee2e6; list-style: none; }
-    ul.categories >li >a {width: 100%; height: 27px; color: #FFCDCD; font-size: 15px; display: flex; justify-content: space-between; align-items: center;}
+    ul.categories >li >a {width: 100%; height: 27px; color: burlywood; font-size: 15px; display: flex; justify-content: space-between; align-items: center;}
     span {width: 17px; height: 27px; color: #CCCCCC; font-size: 15px;}
 
     .popular_box {width: 100%; margin-bottom: 30px; padding: 25px;}
@@ -93,7 +93,7 @@
     .blockbox_text {width: calc(100% - 80px);  }
     h3.heading {width: 100%; margin-bottom: 15px;}
     .heading >a { height: 120px; color: #000000; font-size: 18px;}
-    .heading >a:hover { color: #ffcdcd; outline: none !important; text-decoration: underline;}
+    .heading >a:hover { color: burlywood; outline: none !important; text-decoration: underline;}
 
     .meta {width: 100%; flex-wrap: wrap; }
     .meta1 {width: 100%; height: 21px; margin-right: 5px;}
@@ -108,7 +108,7 @@
     .tag_box >.sub_botton2 li {height: 30px; text-transform: uppercase; display: inline-block; padding: 4px 10px; margin: 0 4px 7px 0px; border-radius: 4px; color: #000000; border: 1px solid #ccc; font-size: 11px;}
     .tag_box >.sub_botton2 li:hover {border: 1px solid #000;}
 
-    .subcribe_box {width: 100%; height: 340px; background-color: #FFCDCD; margin-bottom: 30px; padding: 25px; margin: 0 auto;}
+    .subcribe_box {width: 100%; height: 340px; background-color: burlywood; margin-bottom: 30px; padding: 25px; margin: 0 auto;}
     h3.subcribe_h3 {width: 100%; height: 100px; color: #FFFFFF; font-size: 30px; margin-bottom: 15px;}
     p.subcribe_p {width: 100%; height: 55px; color: #FFFFFFB3; font-size: 15px; margin-bottom: 16px;}
     .form-group {width: 100%; height: 112px;}
